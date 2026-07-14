@@ -76,3 +76,12 @@ def set_scenario():
 
 if __name__ == "__main__":
     app.run()
+
+from azure.monitor.opentelemetry import configure_azure_monitor
+import logging
+
+logging.basicConfig(level=logging.INFO)
+configure_azure_monitor()
+
+from flask import Flask, render_template, request
+app = Flask(__name__)

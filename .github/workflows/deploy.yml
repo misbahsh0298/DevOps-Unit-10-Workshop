@@ -8,7 +8,7 @@ jobs:
     env:
         # SET THESE
         ACR_ADMIN_USERNAME: "misbah"
-        ACR_LOGIN_SERVER_URL: "misbah.azurecr.io" 
+        ACR_LOGIN_SERVER_URL: "misbah.azurecr.io"
         # SET THESE IN GITHUB
         ACR_ADMIN_PASSWORD: '${{ secrets.CtABi45bwcDCQKSETxx43MMj0A8TcrsXWxqk4ctZ3IRHTBituoYjJQQJ99CGAC4f1cMEqg7NAAACAZCRc3X5}}'
     # DECIDE WHETHER YOU WANT A BRANCH CHECK - if so remove the other "if"
